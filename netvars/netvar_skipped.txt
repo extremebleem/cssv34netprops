@@ -1,0 +1,75 @@
+# The props of the receive tables that were not generated, and why: table.prop, the offset in the table, the reason. Generated, do not edit.
+DT_AnimTimeMustBeFirst.m_flAnimTime 0x60 custom proxy 0x24040880, the width of the variable is not known
+DT_BaseEntity.m_flSimulationTime 0x68 custom proxy 0x24040910, the width of the variable is not known
+DT_BaseEntity.m_fEffects 0x70 custom proxy 0x240409D0, the width of the variable is not known
+DT_BaseEntity.moveparent 0x154 custom proxy 0x2413A090, the width of the variable is not known
+DT_BaseEntity.movetype 0x0 custom proxy 0x24044940, the width of the variable is not known
+DT_BaseEntity.movecollide 0x0 custom proxy 0x24042E20, the width of the variable is not known
+DT_BaseEntity.m_bSimulatedEveryTick 0x429 custom proxy 0x2413A0D0, the width of the variable is not known
+DT_BaseEntity.m_bAnimatedEveryTick 0x42A custom proxy 0x2413A0D0, the width of the variable is not known
+DT_BaseGrenade.m_vecVelocity 0xE0 custom proxy 0x24042DE0, the width of the variable is not known
+DT_BasePlayer.m_iFOV 0xD1C custom proxy 0x240518B0, the width of the variable is not known
+DT_BasePlayer.m_iDefaultFOV 0xD28 custom proxy 0x24051910, the width of the variable is not known
+DT_BasePlayer.m_hObserverTarget 0xD84 custom proxy 0x240524E0, the width of the variable is not known
+DT_BasePlayer.m_hViewModel 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_BaseViewModel.m_nSequence 0x634 custom proxy 0x2401AC50, the width of the variable is not known
+DT_BaseViewModel.m_fEffects 0x70 custom proxy 0x240409D0, the width of the variable is not known
+DT_BaseViewModel.m_hWeapon 0x6DC custom proxy 0x2401A870, the width of the variable is not known
+DT_BaseViewModel.m_flPoseParameter 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_Beam.m_fSpeed 0x4EC custom proxy 0x2401CE20, the width of the variable is not known
+DT_Beam.moveparent 0x154 custom proxy 0x2413A090, the width of the variable is not known
+DT_Beam.m_hAttachEntity 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_Beam.m_nAttachIndex 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_BeamPredictableId.m_PredictableID 0x94 custom proxy 0x2413A000, the width of the variable is not known
+DT_CFish.m_x 0x6F4 custom proxy 0x2405E6A0, the width of the variable is not known
+DT_CFish.m_y 0x6F8 custom proxy 0x2405E6C0, the width of the variable is not known
+DT_CHostage.m_isRescued 0xB54 custom proxy 0x241BAD20, the width of the variable is not known
+DT_CSGameRulesProxy.cs_gamerules_data 0x0 a table behind a custom proxy: the object that the proxy returns is not inline in this one
+DT_CSPlayer.m_bHasDefuser 0x1028 custom proxy 0x241BC400, the width of the variable is not known
+DT_CSPlayer.m_bNightVisionOn 0xFBC custom proxy 0x241BE9D0, the width of the variable is not known
+DT_CSPlayer.m_flFlashDuration 0xFD8 custom proxy 0x241BEA10, the width of the variable is not known
+DT_CSPlayer.m_cycleLatch 0x10D4 custom proxy 0x241BC470, the width of the variable is not known
+DT_CollisionProperty.m_vecMins 0x8 custom proxy 0x240A6570, the width of the variable is not known
+DT_CollisionProperty.m_vecMaxs 0x14 custom proxy 0x240A6590, the width of the variable is not known
+DT_CollisionProperty.m_nSolidType 0x29 custom proxy 0x240A6530, the width of the variable is not known
+DT_CollisionProperty.m_usSolidFlags 0x24 custom proxy 0x240A6550, the width of the variable is not known
+DT_CollisionProperty.m_nSurroundType 0x28 custom proxy 0x240A60B0, the width of the variable is not known
+DT_CollisionProperty.m_triggerBloat 0x2A custom proxy 0x240A60B0, the width of the variable is not known
+DT_CollisionProperty.m_vecSpecifiedSurroundingMins 0x2C custom proxy 0x240A6010, the width of the variable is not known
+DT_CollisionProperty.m_vecSpecifiedSurroundingMaxs 0x38 custom proxy 0x240A6010, the width of the variable is not known
+DT_EffectData.m_nSurfaceProp 0x48 custom proxy 0x24139F20, the width of the variable is not known
+DT_EffectData.entindex 0x0 custom proxy 0x240B8D10, the width of the variable is not known
+DT_EnvScreenOverlay.m_iszOverlayNames 0x0 array of prop type 3 is not generated
+DT_EnvScreenOverlay.m_flOverlayTimes 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_FireSmoke.m_flScale 0x464 custom proxy 0x2405B860, the width of the variable is not known
+DT_FireSmoke.m_flScaleTime 0x468 custom proxy 0x2405B8B0, the width of the variable is not known
+DT_FuncSmokeVolume.m_Color1 0x54C custom proxy 0x24139ED0, the width of the variable is not known
+DT_FuncSmokeVolume.m_Color2 0x550 custom proxy 0x24139ED0, the width of the variable is not known
+DT_LightGlow.m_clrRender 0x58 custom proxy 0x24139ED0, the width of the variable is not known
+DT_LightGlow.moveparent 0x154 custom proxy 0x2413A090, the width of the variable is not known
+DT_LightGlow.HDRColorScale 0x0 custom proxy 0x240689C0, the width of the variable is not known
+DT_LocalPlayerExclusive.m_vecVelocity[0] 0xE0 custom proxy 0x240523F0, the width of the variable is not known
+DT_LocalPlayerExclusive.m_vecVelocity[1] 0xE4 custom proxy 0x24052440, the width of the variable is not known
+DT_LocalPlayerExclusive.m_vecVelocity[2] 0xE8 custom proxy 0x24052490, the width of the variable is not known
+DT_LocalWeaponData.m_iClip1 0x6FC custom proxy 0x24139F00, the width of the variable is not known
+DT_LocalWeaponData.m_iClip2 0x700 custom proxy 0x24139F00, the width of the variable is not known
+DT_OverlayVars.m_AnimOverlay 0x0 a variable-length array (CUtlVector): its elements are not in the object at inline offsets
+DT_ParticleSmokeGrenade.m_CurrentStage 0x54C custom proxy 0x2418D8B0, the width of the variable is not known
+DT_Plasma.m_flScale 0x464 custom proxy 0x2406E6A0, the width of the variable is not known
+DT_Plasma.m_flScaleTime 0x468 custom proxy 0x2406E6E0, the width of the variable is not known
+DT_PredictableId.m_PredictableID 0x94 custom proxy 0x2413A000, the width of the variable is not known
+DT_Ragdoll.m_ragAngles 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_Ragdoll.m_ragPos 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_RopeKeyframe.m_Slack 0x748 custom proxy 0x240732C0, the width of the variable is not known
+DT_RopeKeyframe.m_RopeLength 0x744 custom proxy 0x240732C0, the width of the variable is not known
+DT_RopeKeyframe.moveparent 0x154 custom proxy 0x2413A090, the width of the variable is not known
+DT_SceneEntity.m_flForceClientTime 0x46C custom proxy 0x24078DA0, the width of the variable is not known
+DT_SceneEntity.m_hActorList 0x0 a variable-length array (CUtlVector): its elements are not in the object at inline offsets
+DT_SmokeStack.m_iMaterialModel 0x610 custom proxy 0x24139F00, the width of the variable is not known
+DT_Sprite.m_flSpriteScale 0x48C custom proxy 0x24154C20, the width of the variable is not known
+DT_Sun.m_clrRender 0x58 custom proxy 0x24139ED0, the width of the variable is not known
+DT_Sun.m_clrOverlay 0x5B0 custom proxy 0x24139ED0, the width of the variable is not known
+DT_Sun.HDRColorScale 0x0 custom proxy 0x2407F1F0, the width of the variable is not known
+DT_TEBeamSpline.m_vecPoints 0x0 offset 0 of an entity is its vtable: a value that only its proxy stores
+DT_Team."player_array" 0x0 array of custom proxy 0x2407FE40, the width of the variable is not known
+DT_TestTraceline.moveparent 0x154 custom proxy 0x2413A090, the width of the variable is not known
