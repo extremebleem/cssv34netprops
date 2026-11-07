@@ -1,7 +1,8 @@
 # cssv34netprops
 
 The netvars of **Counter-Strike: Source v34** (game build `1.0.0.34`, `cstrike\steam.inf` `PatchVersion=1.0.0.34`) as C++ headers, for **both sides of the game**: `client/` has one class for each
-receive table of the client, `server/` one class for each send table of the server. A class has one getter and one setter for each field. The offsets are not in the files. A file holds the name
+receive table of the client, `server/` one class for each send table of the server that is a table of its own (a send table that only wraps the elements of an array is not a class: the array is a field of
+the table that holds it). A class has one getter and one setter for each field. The offsets are not in the files. A file holds the name
 of the table and the name of the field, and the offset is read from the game's own tables at run time.
 
 The files were generated from the tables of the running game by a tool that is not part of this repository; it writes both folders in one run. Do not edit them by hand: they are data, and a file that is generated again replaces your edit.
@@ -27,7 +28,7 @@ A class and its file are named for the **network class** that carries the table,
 | the table that a field asks the offset for | `DT_CSPlayer` | `server:DT_CSPlayer` |
 | namespace | `Netvar` | `NetvarServer` |
 
-The first line of a header says both names (`// C_CSPlayer, the table DT_CSPlayer - generated from ...`), and `// Client classes:` or `// Server classes:` lists the network names. A table that two or
+The first line of the header of a class says both names (`// C_CSPlayer, the table DT_CSPlayer - generated from ...`; a table with no class has one name, `// DT_Local - generated from ...`), and `// Client classes:` or `// Server classes:` lists the network names. A table that two or
 more classes carry would be named for the first of them by name and list the others; no table of this build has two. Six client classes have another name in the SDK
 (`CClient_Precipitation` for the network class `CPrecipitation`, `C_ServerRagdoll` for `CRagdollProp`, ...): the dump names them by the rule, and the network name in the header is the name that the game itself uses.
 
@@ -98,7 +99,7 @@ Each of the two folders has the same four kinds of file:
 
 | File | |
 |---|---|
-| `<Class>.hpp` | the class of one table, or `DT_<Table>.hpp` for a table that no network class carries; the offsets in its comments are from the start of the table |
+| `<Class>.hpp` | the class of one table, or `DT_<Table>.hpp` for a table that no network class carries (the four server tables of an array keep their own name: `_ST_m_AnimOverlay_15.hpp`); the offsets in its comments are from the start of the table |
 | `netvar_tables.inc` | forward declarations of every class, and the macro that lists every class and its table: `NETVAR_FOR_EACH_TABLE(X)` on the client and `NETVAR_FOR_EACH_SERVER_TABLE(X)` on the server, each calls `X(Class, Table)` |
 | `netvar_all.hpp` | includes every class of the folder |
 | `netvar_skipped.txt` | the props that were not generated, and why, by class: `C_BasePlayer.m_iFOV 0xD1C ...` |
@@ -109,7 +110,7 @@ custom proxy (1); an array of a custom proxy (1); an array of prop type 3 (1). T
 
 ## How the files were made
 
-A tool walked the client classes of the running game and their receive tables, and then the server classes and their send tables, and wrote one header for each table, `netvar_tables.inc`, `netvar_all.hpp` and `netvar_skipped.txt`
+A tool walked the client classes of the running game and their receive tables, and then the server classes and their send tables, and wrote one header for each table that is a class or a sub-table (not the tables that only wrap the elements of an array), `netvar_tables.inc`, `netvar_all.hpp` and `netvar_skipped.txt`
 into the folder of each side. The tool is not part of this repository. This is what it did, for anyone who writes one:
 
 - A header starts with the line `// <Class>, the table <Table> - generated from the receive tables of the game, do not edit.` (`... from the send tables of the server ...` on the server). The tool recognised its own
@@ -134,7 +135,8 @@ into the folder of each side. The tool is not part of this repository. This is w
 ## Checked
 
 The field lines of this dump (the type, the name and the offset comment of every `NETVAR_FIELD*` and `NETVAR_TABLE*` line) are the same as the lines of the earlier dumps of this build: client 891 lines, server 832, 0 different
-(a comparison of the sorted lines; the earlier client dump was in the folder `netvars/`). Those earlier dumps were compared with a separate walk of the same tables in the running game: for the client, 14 classes (`DT_CSPlayer`,
+(a comparison of the sorted lines; the earlier client dump was in the folder `netvars/` of this repository, the earlier server dump a folder of the project that uses this one, now deleted). The table that each class
+asks by (`NETVAR_FRAGMENT`) was compared table by table too, because the rename touched it: 203 client and 202 server tables, the same key, the same fields. Those earlier dumps were compared with a separate walk of the same tables in the running game: for the client, 14 classes (`DT_CSPlayer`,
 `DT_BasePlayer`, `DT_BaseCombatCharacter`, `DT_BaseAnimating`, `DT_BaseEntity`, `DT_WeaponCSBase`, `DT_BaseCombatWeapon`, `DT_BaseViewModel`, `DT_CSPlayerResource`, `DT_PlantedC4`, `DT_CSTeam`, `DT_Team`,
 `DT_CSRagdoll`, `DT_CSGameRulesProxy`) with the offsets of the parents and sub-tables added up, 560 fields, 0 different (2026-11-05); for the server, every field, 812 fields, 0 different (2026-11-06). This dump was not walked
 again. Not checked: the values that the classes read in the game, and the type of a field that a custom proxy stores.
