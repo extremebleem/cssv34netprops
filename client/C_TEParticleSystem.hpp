@@ -1,0 +1,20 @@
+// C_TEParticleSystem, the table DT_TEParticleSystem - generated from the receive tables of the game, do not edit.
+// Include at global scope, after netvar_fields.hpp and netvar_tables.inc, before the class that derives from it.
+// The offsets in the comments are from the start of the table.
+// Netvar parent: C_BaseTempEntity
+// Client classes: CTEParticleSystem
+#pragma once
+
+namespace Netvar {
+
+template <class Self, class Base = NoBase<Self>>
+struct C_TEParticleSystem : Base
+{
+    NETVAR_FRAGMENT(DT_TEParticleSystem)
+
+    NETVAR_FIELD_AS(float, m_vecOrigin_0_, "m_vecOrigin[0]") // 0x10
+    NETVAR_FIELD_AS(float, m_vecOrigin_1_, "m_vecOrigin[1]") // 0x14
+    NETVAR_FIELD_AS(float, m_vecOrigin_2_, "m_vecOrigin[2]") // 0x18
+};
+
+} // namespace Netvar

@@ -1,0 +1,137 @@
+# The props of the send tables of the server that were not generated, and why: class.prop (the table's own name when no class carries it), the offset in the table, the reason. Generated, do not edit.
+DT_AnimTimeMustBeFirst.m_flAnimTime 0x28 the receive tables of the game list it: custom proxy 0x24040880, the width of the variable is not known
+CBaseEntity.m_flSimulationTime 0x2C the receive tables of the game list it: custom proxy 0x24040910, the width of the variable is not known
+CBaseEntity.m_fEffects 0x6C the receive tables of the game list it: custom proxy 0x240409D0, the width of the variable is not known
+CBaseEntity.moveparent 0xE0 the receive tables of the game list it: custom proxy 0x2413A090, the width of the variable is not known
+CBaseEntity.movetype 0xDE the receive tables of the game list it: custom proxy 0x24044940, the width of the variable is not known
+CBaseEntity.movecollide 0xDF the receive tables of the game list it: custom proxy 0x24042E20, the width of the variable is not known
+CBaseEntity.m_bSimulatedEveryTick 0x2AD the receive tables of the game list it: custom proxy 0x2413A0D0, the width of the variable is not known
+CBaseEntity.m_bAnimatedEveryTick 0x2AE the receive tables of the game list it: custom proxy 0x2413A0D0, the width of the variable is not known
+CBaseGrenade.m_vecVelocity 0x2A0 the receive tables of the game list it: custom proxy 0x24042DE0, the width of the variable is not known
+CBasePlayer.m_hObserverTarget 0xA00 the receive tables of the game list it: custom proxy 0x240524E0, the width of the variable is not known
+CBasePlayer.m_iFOV 0x9F4 the receive tables of the game list it: custom proxy 0x240518B0, the width of the variable is not known
+CBasePlayer.m_iDefaultFOV 0x9F8 the receive tables of the game list it: custom proxy 0x24051910, the width of the variable is not known
+CBasePlayer.m_hViewModel 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CBaseViewModel.m_nSequence 0x3A4 the receive tables of the game list it: custom proxy 0x2401AC50, the width of the variable is not known
+CBaseViewModel.m_fEffects 0x6C the receive tables of the game list it: custom proxy 0x240409D0, the width of the variable is not known
+CBaseViewModel.m_hWeapon 0x490 the receive tables of the game list it: custom proxy 0x2401A870, the width of the variable is not known
+CBaseViewModel.m_flPoseParameter 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CBeam.m_hAttachEntity 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CBeam.m_nAttachIndex 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CBeam.m_fSpeed 0x3D8 the receive tables of the game list it: custom proxy 0x2401CE20, the width of the variable is not known
+CBeam.moveparent 0xE0 the receive tables of the game list it: custom proxy 0x2413A090, the width of the variable is not known
+DT_BeamPredictableId.m_PredictableID 0x34 the receive tables of the game list it: custom proxy 0x2413A000, the width of the variable is not known
+CFish.m_x 0x470 the receive tables of the game list it: custom proxy 0x2405E6A0, the width of the variable is not known
+CFish.m_y 0x474 the receive tables of the game list it: custom proxy 0x2405E6C0, the width of the variable is not known
+CHostage.m_flPoseParameter 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CHostage.m_flPlaybackRate 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CHostage.m_nSequence 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CHostage.m_nNewSequenceParity 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CHostage.m_nResetEventsParity 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CHostage.overlay_vars 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimatingOverlay
+CHostage.m_flCycle 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_ServerAnimationData
+CHostage.m_flAnimTime 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_AnimTimeMustBeFirst
+CHostage.m_isRescued 0x778 the receive tables of the game list it: custom proxy 0x241BAD20, the width of the variable is not known
+CCSGameRulesProxy.cs_gamerules_data 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+CCSPlayer.m_flPoseParameter 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CCSPlayer.m_flPlaybackRate 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CCSPlayer.m_nSequence 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CCSPlayer.m_nNewSequenceParity 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CCSPlayer.m_nResetEventsParity 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CCSPlayer.m_nMuzzleFlashParity 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+CCSPlayer.m_angRotation 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseEntity
+CCSPlayer.overlay_vars 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimatingOverlay
+CCSPlayer.m_flCycle 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_ServerAnimationData
+CCSPlayer.m_flAnimTime 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_AnimTimeMustBeFirst
+CCSPlayer.m_vecOrigin 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseEntity
+CCSPlayer.m_bHasDefuser 0xE48 the receive tables of the game list it: custom proxy 0x241BC400, the width of the variable is not known
+CCSPlayer.m_bNightVisionOn 0xE4A the receive tables of the game list it: custom proxy 0x241BE9D0, the width of the variable is not known
+CCSPlayer.m_flFlashDuration 0x12A4 the receive tables of the game list it: custom proxy 0x241BEA10, the width of the variable is not known
+CCSPlayer.m_cycleLatch 0x1444 the receive tables of the game list it: custom proxy 0x241BC470, the width of the variable is not known
+DT_CollisionProperty.m_vecMins 0x8 the receive tables of the game list it: custom proxy 0x240A6570, the width of the variable is not known
+DT_CollisionProperty.m_vecMaxs 0x14 the receive tables of the game list it: custom proxy 0x240A6590, the width of the variable is not known
+DT_CollisionProperty.m_nSolidType 0x29 the receive tables of the game list it: custom proxy 0x240A6530, the width of the variable is not known
+DT_CollisionProperty.m_usSolidFlags 0x24 the receive tables of the game list it: custom proxy 0x240A6550, the width of the variable is not known
+DT_CollisionProperty.m_nSurroundType 0x28 the receive tables of the game list it: custom proxy 0x240A60B0, the width of the variable is not known
+DT_CollisionProperty.m_triggerBloat 0x2A the receive tables of the game list it: custom proxy 0x240A60B0, the width of the variable is not known
+DT_CollisionProperty.m_vecSpecifiedSurroundingMins 0x2C the receive tables of the game list it: custom proxy 0x240A6010, the width of the variable is not known
+DT_CollisionProperty.m_vecSpecifiedSurroundingMaxs 0x38 the receive tables of the game list it: custom proxy 0x240A6010, the width of the variable is not known
+CColorCorrection.m_netlookupFilename 0x364 a send prop of a string says nothing about the length of its buffer, and the receive tables of the game have no such field
+DT_EffectData.m_nSurfaceProp 0x48 the receive tables of the game list it: custom proxy 0x24139F20, the width of the variable is not known
+DT_EffectData.entindex 0x34 the receive tables of the game list it: custom proxy 0x240B8D10, the width of the variable is not known
+CEnvScreenOverlay.m_iszOverlayNames 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CEnvScreenOverlay.m_flOverlayTimes 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CFireSmoke.m_flScale 0x354 the receive tables of the game list it: custom proxy 0x2405B860, the width of the variable is not known
+CFireSmoke.m_flScaleTime 0x358 the receive tables of the game list it: custom proxy 0x2405B8B0, the width of the variable is not known
+CFuncSmokeVolume.m_Color1 0x350 the receive tables of the game list it: custom proxy 0x24139ED0, the width of the variable is not known
+CFuncSmokeVolume.m_Color2 0x354 the receive tables of the game list it: custom proxy 0x24139ED0, the width of the variable is not known
+CLightGlow.m_clrRender 0x20 the receive tables of the game list it: custom proxy 0x24139ED0, the width of the variable is not known
+CLightGlow.moveparent 0xE0 the receive tables of the game list it: custom proxy 0x2413A090, the width of the variable is not known
+CLightGlow.HDRColorScale 0x368 the receive tables of the game list it: custom proxy 0x240689C0, the width of the variable is not known
+DT_LocalPlayerExclusive.m_vecVelocity[0] 0x2A0 the receive tables of the game list it: custom proxy 0x240523F0, the width of the variable is not known
+DT_LocalPlayerExclusive.m_vecVelocity[1] 0x2A4 the receive tables of the game list it: custom proxy 0x24052440, the width of the variable is not known
+DT_LocalPlayerExclusive.m_vecVelocity[2] 0x2A8 the receive tables of the game list it: custom proxy 0x24052490, the width of the variable is not known
+DT_LocalWeaponData.m_iClip1 0x4B4 the receive tables of the game list it: custom proxy 0x24139F00, the width of the variable is not known
+DT_LocalWeaponData.m_iClip2 0x4B8 the receive tables of the game list it: custom proxy 0x24139F00, the width of the variable is not known
+DT_OverlayVars.m_AnimOverlay 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+ParticleSmokeGrenade.m_CurrentStage 0x350 the receive tables of the game list it: custom proxy 0x2418D8B0, the width of the variable is not known
+CPlasma.m_flScale 0x354 the receive tables of the game list it: custom proxy 0x2406E6A0, the width of the variable is not known
+CPlasma.m_flScaleTime 0x358 the receive tables of the game list it: custom proxy 0x2406E6E0, the width of the variable is not known
+CPlayerResource.m_bConnected 0x65C an array of tables whose elements are not one stride of the element apart
+CPlayerResource.m_bAlive 0x864 an array of tables whose elements are not one stride of the element apart
+DT_PredictableId.m_PredictableID 0x34 the receive tables of the game list it: custom proxy 0x2413A000, the width of the variable is not known
+CRagdollProp.m_ragAngles 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CRagdollProp.m_ragPos 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CRopeKeyframe.m_Slack 0x35C the receive tables of the game list it: custom proxy 0x240732C0, the width of the variable is not known
+CRopeKeyframe.m_RopeLength 0x378 the receive tables of the game list it: custom proxy 0x240732C0, the width of the variable is not known
+CRopeKeyframe.moveparent 0xE0 the receive tables of the game list it: custom proxy 0x2413A090, the width of the variable is not known
+CSceneEntity.m_flForceClientTime 0x3AC the receive tables of the game list it: custom proxy 0x24078DA0, the width of the variable is not known
+CSceneEntity.m_hActorList 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+CSmokeStack.m_iMaterialModel 0x3C4 the receive tables of the game list it: custom proxy 0x24139F00, the width of the variable is not known
+CSprite.m_flSpriteScale 0x36C the receive tables of the game list it: custom proxy 0x24154C20, the width of the variable is not known
+CSun.m_clrRender 0x20 the receive tables of the game list it: custom proxy 0x24139ED0, the width of the variable is not known
+CSun.m_clrOverlay 0x378 the receive tables of the game list it: custom proxy 0x24139ED0, the width of the variable is not known
+CSun.HDRColorScale 0x388 the receive tables of the game list it: custom proxy 0x2407F1F0, the width of the variable is not known
+CTEBeamSpline.m_vecPoints 0x0 a send prop of an array says the stride of its elements, not the type of one element, and the receive tables of the game have no such field
+CTeam."player_array" 0x0 a variable-length array (an array length proxy): its elements are not at inline offsets
+CTestTraceline.moveparent 0xE0 the receive tables of the game list it: custom proxy 0x2413A090, the width of the variable is not known
+CWorld.m_bStartDark 0x384 a send prop of an int says how many bits go on the wire (1), not how many bytes the variable has, and the receive tables of the game have no such field
+CWorld.m_iszDetailSpriteMaterial 0x380 a send prop of a string says nothing about the length of its buffer, and the receive tables of the game have no such field
+CWorld.m_bColdWorld 0x385 a send prop of an int says how many bits go on the wire (1), not how many bytes the variable has, and the receive tables of the game have no such field
+CWeaponCSBase.m_flAnimTime 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_AnimTimeMustBeFirst
+CWeaponCSBase.m_nSequence 0x0 SPROP_EXCLUDE: this table does not send the prop of DT_BaseAnimating
+_LPT_m_AnimOverlay_15.lengthprop15 0x0 a send prop of an int says how many bits go on the wire (4), not how many bytes the variable has, and the receive tables of the game have no such field
+_LPT_m_hActorList_16.lengthprop16 0x0 a send prop of an int says how many bits go on the wire (5), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_AnimOverlay_15.lengthproxy 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.000 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.001 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.002 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.003 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.004 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.005 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.006 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.007 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.008 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.009 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.010 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.011 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.012 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.013 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_AnimOverlay_15.014 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_hActorList_16.lengthproxy 0x0 the receive tables of the game have no such sub-table, and a send prop does not say whether it sits inline
+_ST_m_hActorList_16.000 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.001 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.002 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.003 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.004 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.005 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.006 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.007 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.008 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.009 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.010 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.011 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.012 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.013 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.014 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
+_ST_m_hActorList_16.015 0x0 a send prop of an int says how many bits go on the wire (21), not how many bytes the variable has, and the receive tables of the game have no such field
